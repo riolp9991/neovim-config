@@ -1,0 +1,20 @@
+    {
+    "cursors.nextKey": "<C-j>",
+    "cursors.previousKey": "<C-k>",
+    "cursors.cancelKey": "<esc>",
+    "explorer.width": 30,
+    "explorer.icon.enableNerdfont": true,
+    "explorer.previewAction.onHover": false,
+    "explorer.keyMappings.global": {
+        "<cr>": ["expandable?", "expand", "open"],
+        "v": "open:vsplit"
+    },
+    "coc.preferences.formatOnType": true,
+    "coc.preferences.formatOnSaveFiletypes": ["css", "html", "javascript", "typescript", "scss", "vue"],
+    "prettier.semi": false,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "none",
+    "prettier.useTabs": false,
+    "prettier.tabWidth": 4,
+    "prettier.requireConfig": true
+}
