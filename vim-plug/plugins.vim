@@ -3,6 +3,9 @@ filetype plugin on
 
 call plug#begin('~/.vim/plugged')
 Plug 'tmhedberg/simpylfold'
+Plug 'voldikss/vim-floaterm'
+Plug 'sheerun/vim-polyglot'
+Plug 'mustache/vim-mustache-handlebars'
 "Plug 'Yggdroot/indentLine'
 Plug 'natebosch/vim-lsc'
 Plug 'natebosch/vim-lsc-dart'

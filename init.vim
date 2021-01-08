@@ -8,4 +8,5 @@ source $HOME/.config/nvim/general/coc.vim
 source $HOME/.config/nvim/general/airline.vim
 source $HOME/.config/nvim/general/keymaps.vim
 source $HOME/.config/nvim/general/files.vim
-source $HOME/.config/nvim/general/folding.vim
+source $HOME/.config/nvim/general/floaterm.vim
+"source $HOME/.config/nvim/general/folding.vim
