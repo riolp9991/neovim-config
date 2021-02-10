@@ -25,6 +25,6 @@ nnoremap <leader>to :tabonly<CR>
 
 " ---------------- Picker --------------------------------------------
 
-nnoremap <leader>cc :Pick color<CR>
+nnoremap <leader>cp :Pick<CR>
 nnoremap <leader>cf :Pick file<CR>
 nnoremap <leader>cd :Pick date<CR>
