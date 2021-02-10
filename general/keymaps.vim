@@ -22,3 +22,9 @@ nnoremap <leader>tn :tabnext<CR>
 nnoremap <leader>tp :tabprevious<CR>
 nnoremap <leader>tc :tabclose<CR>
 nnoremap <leader>to :tabonly<CR>
+
+" ---------------- Picker --------------------------------------------
+
+nnoremap <leader>cc :Pick color<CR>
+nnoremap <leader>cf :Pick file<CR>
+nnoremap <leader>cd :Pick date<CR>

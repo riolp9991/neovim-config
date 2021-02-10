@@ -16,5 +16,4 @@ function! Toggle_transparent()
     endif
 endfunction
 
-"call Toggle_transparent()
 

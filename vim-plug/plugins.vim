@@ -2,13 +2,15 @@ filetype plugin on
 
 
 call plug#begin('~/.vim/plugged')
+Plug 'DougBeney/pickachu'
+Plug 'dart-lang/dart-vim-plugin'
+Plug 'ayu-theme/ayu-vim'
 Plug 'tmhedberg/simpylfold'
 Plug 'voldikss/vim-floaterm'
 Plug 'sheerun/vim-polyglot'
 Plug 'mustache/vim-mustache-handlebars'
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 "Plug 'Yggdroot/indentLine'
-Plug 'natebosch/vim-lsc'
-Plug 'natebosch/vim-lsc-dart'
 Plug 'dart-lang/dart-vim-plugin'
 Plug 'posva/vim-vue'
 Plug 'xolox/vim-misc'
@@ -26,7 +28,6 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'jiangmiao/auto-pairs'
 Plug 'liuchengxu/vim-which-key'
 Plug 'norcalli/nvim-colorizer.lua'
-"Plug 'prettier/vim-prettier', {'do': 'yarn install'}
 Plug 'flazz/vim-colorschemes'
 Plug 'ryanoasis/vim-devicons'
 Plug 'vim-airline/vim-airline'
