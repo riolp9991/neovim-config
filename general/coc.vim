@@ -26,3 +26,5 @@ command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
 autocmd BufEnter *.hbs :set ft=html
 let g:coc_filetype_map = {'handlebars': 'handlebars.html'}
+hi! CocErrorSign guifg=#d1666a
+hi! CocWarningSign guifg=#d1cd66

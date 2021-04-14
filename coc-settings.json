@@ -30,6 +30,7 @@
     },
     "html.filetypes": ["html", "handlebars", "hbs", "htmldjango", "blade"],
     "flutter.lsp.initialization.closingLabels": true,
+    "python.jediEnabled": false,
     "suggest.completionItemKindLabels": {
         "keyword": "\uf1de",
         "variable": "\ue79b",

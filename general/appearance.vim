@@ -1,4 +1,5 @@
 colorscheme onedark  
+"colorscheme miramare  
 "set background=dark
 "colorscheme palenight
 let g:sonokai_style='default'

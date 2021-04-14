@@ -22,7 +22,6 @@ nnoremap <leader>tn :tabnext<CR>
 nnoremap <leader>tp :tabprevious<CR>
 nnoremap <leader>tc :tabclose<CR>
 nnoremap <leader>to :tabonly<CR>
-
 " ---------------- Picker --------------------------------------------
 
 nnoremap <leader>cp :Pick<CR>
