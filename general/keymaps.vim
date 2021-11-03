@@ -27,3 +27,13 @@ nnoremap <leader>to :tabonly<CR>
 nnoremap <leader>cp :Pick<CR>
 nnoremap <leader>cf :Pick file<CR>
 nnoremap <leader>cd :Pick date<CR>
+" ---------------- Copy ------------------------------------------------
+vnoremap <leader>y "+y
+nnoremap <leader>Y "+yg_
+nnoremap <leader>y "+y
+nnoremap <leader>yy "+yy
+
+nnoremap <leader>p "+p
+nnoremap <leader>P "+P
+vnoremap <leader>p "+p
+vnoremap <leader>P "+P
