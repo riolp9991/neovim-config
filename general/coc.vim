@@ -16,6 +16,20 @@ nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 nmap <leader>rn <Plug>(coc-rename)
 
+inoremap <silent><expr> <TAB>
+      \ pumvisible() ? "\<C-n>" :
+      \ <SID>check_back_space() ? "\<TAB>" :
+      \ coc#refresh()
+inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
+
+function! s:check_back_space() abort
+  	  let col = col('.') - 1
+  	    return !col || getline('.')[col - 1]  =~# '\s'
+endfunction
+
+inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()
+                              \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+
 inoremap <silent><expr> <c-space> coc#refresh()
 inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<CR>"
 function! s:check_back_space() abort
@@ -23,14 +37,9 @@ function! s:check_back_space() abort
   return !col || getline('.')[col - 1]  =~ '\s'
 endfunction
 
-inoremap <silent><expr> <TAB>
-      \ pumvisible() ? "\<C-n>" :
-      \ <SID>check_back_space() ? "\<TAB>" :
-      \ coc#refresh()
-
 nmap <C-f> :CocCommand explorer<CR>
 
-"autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif
+autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif
 "
 
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
@@ -49,6 +58,7 @@ nnoremap <leader>de :CocCommand flutter.emulators <CR>
 nnoremap <leader>dD :CocCommand flutter.devices <CR>
 nnoremap <leader>dd :below new output:///flutter-dev <CR>
 nnoremap <leader>dr :CocCommand flutter.run <CR> 
+nnoremap <leader>ds :CocCommand flutter.dev.detach <CR>
 xmap <leader>a  <Plug>(coc-codeaction-selected)
 nmap <leader>a  <Plug>(coc-codeaction-selected)
 "xmap <silent> <leader>a :<C-u>execute 'CocCommand actions.open ' .visualmode()<CR>
