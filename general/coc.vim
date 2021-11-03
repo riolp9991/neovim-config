@@ -54,11 +54,12 @@ hi! CocWarningSign guifg=#d1cd66
 let g:dart_format_on_save = 1
 let g:dartfmt_options = ['--fix', '--line-length 80']
 
-nnoremap <leader>de :CocCommand flutter.emulators <CR>
-nnoremap <leader>dD :CocCommand flutter.devices <CR>
-nnoremap <leader>dd :below new output:///flutter-dev <CR>
-nnoremap <leader>dr :CocCommand flutter.run <CR> 
-nnoremap <leader>ds :CocCommand flutter.dev.detach <CR>
+nnoremap <leader>fe :CocCommand flutter.emulators <CR>
+nnoremap <leader>fD :CocCommand flutter.devices <CR>
+nnoremap <leader>fd :below new output:///flutter-dev <CR>
+nnoremap <leader>fr :CocCommand flutter.run <CR> 
+nnoremap <leader>fs :CocCommand flutter.dev.detach <CR>
+nnoremap <leader>fR :CocCommand flutter.dev.hotRestart <CR>
 xmap <leader>a  <Plug>(coc-codeaction-selected)
 nmap <leader>a  <Plug>(coc-codeaction-selected)
 "xmap <silent> <leader>a :<C-u>execute 'CocCommand actions.open ' .visualmode()<CR>

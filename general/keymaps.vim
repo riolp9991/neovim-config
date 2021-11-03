@@ -13,7 +13,7 @@ nnoremap <C-h> <C-y>
 nnoremap <C-g> <C-e>
 " ----------------File Management----------------------------------------
 nnoremap <leader>F :Files .<CR>
-nnoremap <leader>f :GFiles .<CR>
+nnoremap <C-p> :GFiles .<CR>
 nnoremap <leader>r :RnvimrToggle<CR>
 " ----------------Tab Management-----------------------------------------
 
