@@ -1,4 +1,4 @@
-let g:coc_node_path = '/home/riolp/.nvm/versions/node/v15.4.0/bin/node'
+let g:coc_node_path = '/home/riolp/.nvm/versions/node/v16.11.0/bin/node'
 
 nmap gd <Plug>(coc-definition)
 nmap gy <Plug>(coc-type-definition)
