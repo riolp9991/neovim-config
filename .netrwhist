@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =5
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/riolp/.config/nvim'
 let g:netrw_dirhist_5='/home/riolp/Escritorio/html-template'
 let g:netrw_dirhist_4='/home/riolp/.config/nvim/vim-plug'
 let g:netrw_dirhist_3='/home/riolp/.config/nvim'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_0='/home/riolp/.config/nvim/vim-plug'
 let g:netrw_dirhist_9='/home/riolp/.config/nvim'
 let g:netrw_dirhist_8='/home/riolp/.config/nvim/vim-plug'
 let g:netrw_dirhist_7='/home/riolp/.config/nvim'
-let g:netrw_dirhist_6='/home/riolp/.config'

@@ -1,9 +1,20 @@
 let g:coc_node_path = '/home/riolp/.nvm/versions/node/v16.11.0/bin/node'
 
-nmap gd <Plug>(coc-definition)
-nmap gy <Plug>(coc-type-definition)
-nmap gi <Plug>(coc-implementation)
-nmap gr <Plug>(coc-references)
+let g:coc_global_extensions = [
+  \ 'coc-flutter',
+  \ 'coc-snippets',
+  \ 'coc-yaml',
+  \ 'coc-tsserver',
+  \ 'coc-css',
+  \ 'coc-explorer',
+  \ 'coc-flutter-tools',
+  \]
+
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)
+nmap <leader>rn <Plug>(coc-rename)
 
 inoremap <silent><expr> <c-space> coc#refresh()
 inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<CR>"
@@ -29,6 +40,27 @@ let g:coc_filetype_map = {'handlebars': 'handlebars.html'}
 hi! CocErrorSign guifg=#d1666a
 hi! CocWarningSign guifg=#d1cd66
 
+"Flutter
 
-xmap <silent> <leader>a :<C-u>execute 'CocCommand actions.open ' . visualmode()<CR>
-nmap <silent> <leader>a :<C-u>set operatorfunc=<SID>cocActionsOpenFromSelected<CR>g@
+let g:dart_format_on_save = 1
+let g:dartfmt_options = ['--fix', '--line-length 80']
+
+nnoremap <leader>de :CocCommand flutter.emulators <CR>
+nnoremap <leader>dD :CocCommand flutter.devices <CR>
+nnoremap <leader>dd :below new output:///flutter-dev <CR>
+nnoremap <leader>dr :CocCommand flutter.run <CR> 
+xmap <leader>a  <Plug>(coc-codeaction-selected)
+nmap <leader>a  <Plug>(coc-codeaction-selected)
+"xmap <silent> <leader>a :<C-u>execute 'CocCommand actions.open ' .visualmode()<CR>
+"nmap <silent> <leader>a :<C-u>set operatorfunc=<SID>cocActionsOpenFromSelected<CR>
+
+nnoremap <silent> K :call <SID>show_documentation()<CR>
+function! s:show_documentation()
+  if (index(['vim','help'], &filetype) >= 0)
+    execute 'h '.expand('<cword>')
+  elseif (coc#rpc#ready())
+    call CocActionAsync('doHover')
+  else
+    execute '!' . &keywordprg . " " . expand('<cword>')
+  endif
+endfunction"

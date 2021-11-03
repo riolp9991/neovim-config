@@ -3,6 +3,7 @@
     "cursors.previousKey": "<C-k>",
     "cursors.cancelKey": "<esc>",
     "explorer.width": 30,
+    "lutter.provider.enableSnippet": true,
     "explorer.icon.enableNerdfont": true,
     "explorer.previewAction.onHover": false,
     "explorer.keyMappings.global": {
@@ -10,12 +11,9 @@
         "v": "open:vsplit"
     },
     "coc.preferences.formatOnType": true,
-    "flutter.enabled": true,
-    "flutter.sdk.dart-lookup": "~/Develop/Tools/flutter/bin/dart",
-    "flutter.sdk.flutter-lookup": "~/Develop/Tools/flutter/bin/flutter",
-    "flutter.sdk.dart-command": "~/Develop/Tools/flutter/bin/dart",
     "coc.preferences.formatOnSaveFiletypes": [
         "css",
+        "dart",
         "html",
         "javascript",
         "typescript",
@@ -29,7 +27,6 @@
         "handlebars": "hbs"
     },
     "html.filetypes": ["html", "handlebars", "hbs", "htmldjango", "blade"],
-    "flutter.lsp.initialization.closingLabels": true,
     "python.jediEnabled": false,
     "suggest.completionItemKindLabels": {
         "keyword": "\uf1de",

@@ -2,6 +2,10 @@ filetype plugin on
 
 
 call plug#begin('~/.vim/plugged')
+Plug 'Neevash/awesome-flutter-snippets'
+Plug 'hrsh7th/vim-vsnip'
+Plug 'hrsh7th/vim-vsnip-integ'
+Plug 'SirVer/ultisnips'
 Plug 'franbach/miramare'
 Plug 'DougBeney/pickachu'
 Plug 'dart-lang/dart-vim-plugin'

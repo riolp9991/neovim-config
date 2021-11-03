@@ -18,4 +18,4 @@ function! Toggle_transparent()
 endfunction
 
 
-call Toggle_transparent()
+"call Toggle_transparent()
