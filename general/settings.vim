@@ -7,10 +7,10 @@ set pumheight=10
 set scrolloff=5
 set encoding=UTF-8
 set number relativenumber
-set tabstop=4 
+set tabstop=2 
 set softtabstop=0 
 set expandtab 
-set shiftwidth=4 
+set shiftwidth=2
 set smarttab
 set autoindent
 set smartindent
@@ -27,3 +27,4 @@ set splitbelow
 
 
 au! BufWritePost $MYVIMRC source %
+

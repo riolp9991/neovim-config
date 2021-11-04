@@ -2,6 +2,7 @@
     "cursors.nextKey": "<C-j>",
     "cursors.previousKey": "<C-k>",
     "cursors.cancelKey": "<esc>",
+    "coc.preferences.noselect": false,
     "explorer.width": 30,
     "lutter.provider.enableSnippet": true,
     "explorer.icon.enableNerdfont": true,

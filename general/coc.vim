@@ -1,5 +1,6 @@
 let g:coc_node_path = '/home/riolp/.nvm/versions/node/v16.11.0/bin/node'
 
+
 let g:coc_global_extensions = [
   \ 'coc-flutter',
   \ 'coc-snippets',
@@ -16,10 +17,24 @@ nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 nmap <leader>rn <Plug>(coc-rename)
 
-inoremap <silent><expr> <TAB>
+
+inoremap <silent><expr> <NUL> coc#refresh()
+
+" use <tab> for trigger completion and navigate to the next complete item
+function! s:check_back_space() abort
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~ '\s'
+endfunction
+
+inoremap <silent><expr> <Tab>
       \ pumvisible() ? "\<C-n>" :
-      \ <SID>check_back_space() ? "\<TAB>" :
+      \ <SID>check_back_space() ? "\<Tab>" :
       \ coc#refresh()
+
+"inoremap <silent><expr> <TAB>
+      "\ pumvisible() ? "\<C-n>" :
+      "\ <SID>check_back_space() ? "\<Tab>" :
+      "\ coc#refresh()
 inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
 
 function! s:check_back_space() abort

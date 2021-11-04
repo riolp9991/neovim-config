@@ -15,7 +15,7 @@ Plug 'voldikss/vim-floaterm'
 Plug 'sheerun/vim-polyglot'
 Plug 'mustache/vim-mustache-handlebars'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
-"Plug 'Yggdroot/indentLine'
+Plug 'Yggdroot/indentLine'
 Plug 'dart-lang/dart-vim-plugin'
 Plug 'posva/vim-vue'
 Plug 'xolox/vim-misc'
