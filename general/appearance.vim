@@ -1,4 +1,7 @@
 colorscheme onedark  
+"colorscheme sonokai
+"set background=dark
+"colorscheme codedark
 "colorscheme miramare  
 "set background=dark
 "colorscheme palenight
@@ -18,4 +21,4 @@ function! Toggle_transparent()
 endfunction
 
 
-"call Toggle_transparent()
+call Toggle_transparent()
