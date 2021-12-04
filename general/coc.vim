@@ -1,4 +1,4 @@
-let g:coc_node_path = '/home/riolp/.nvm/versions/node/v16.11.0/bin/node'
+let g:coc_node_path = '/home/chrx/.nvm/versions/node/v17.2.0/bin/node'
 
 
 let g:coc_global_extensions = [
