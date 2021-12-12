@@ -7,8 +7,14 @@ let g:coc_global_extensions = [
   \ 'coc-yaml',
   \ 'coc-tsserver',
   \ 'coc-css',
+  \ 'coc-emmet',
+  \ 'coc-html',
+  \ 'coc-lightbulb',
+  \ 'coc-sh',
+  \ 'coc-vimlsp',
   \ 'coc-explorer',
   \ 'coc-flutter-tools',
+  \ '@yaegassy/coc-intelephense'
   \]
 
 nmap <silent> gd <Plug>(coc-definition)
@@ -53,6 +59,7 @@ function! s:check_back_space() abort
 endfunction
 
 nmap <C-f> :CocCommand explorer<CR>
+"nmap <C-f> :NERDTreeToggle<CR>
 
 autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif
 "

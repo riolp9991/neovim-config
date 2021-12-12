@@ -25,6 +25,8 @@ set clipboard=unnamedplus
 set splitright
 set splitbelow
 
+let g:rainbow_active = 1
+
 
 au! BufWritePost $MYVIMRC source %
 

@@ -2,12 +2,19 @@ filetype plugin on
 
 
 call plug#begin('~/.vim/plugged')
+"LUALINE
+Plug 'nvim-lualine/lualine.nvim'
+Plug 'kyazdani42/nvim-web-devicons'
+"=======
+Plug 'marko-cerovac/material.nvim'
+Plug 'phanviet/vim-monokai-pro'
 Plug 'lambdalisue/battery.vim'
 Plug 'tomasiser/vim-code-dark'
 Plug 'sainnhe/sonokai'
 Plug 'Neevash/awesome-flutter-snippets'
 Plug 'hrsh7th/vim-vsnip'
 Plug 'hrsh7th/vim-vsnip-integ'
+Plug 'preservim/nerdtree'
 "Plug 'SirVer/ultisnips'
 Plug 'franbach/miramare'
 "Plug 'DougBeney/pickachu'
@@ -38,8 +45,8 @@ Plug 'liuchengxu/vim-which-key'
 Plug 'norcalli/nvim-colorizer.lua'
 Plug 'flazz/vim-colorschemes'
 Plug 'ryanoasis/vim-devicons'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+"Plug 'vim-airline/vim-airline'
+"Plug 'vim-airline/vim-airline-themes'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 "Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -49,7 +56,6 @@ Plug 'rafi/awesome-vim-colorschemes'
 Plug 'drewtempelmeyer/palenight.vim'
 Plug 'rakr/vim-one'
 Plug 'preservim/nerdcommenter'
-Plug 'frazrepo/vim-rainbow'
 Plug 'tpope/vim-fugitive'
 Plug 'mhinz/vim-signify'
 Plug 'tpope/vim-rhubarb'
