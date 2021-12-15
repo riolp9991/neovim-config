@@ -37,3 +37,6 @@ nnoremap <leader>p "+p
 nnoremap <leader>P "+P
 vnoremap <leader>p "+p
 vnoremap <leader>P "+P
+ "---------------- Sessuibs ------------------------------------------
+"nnoremap <leader>ss :SaveSession<CR>
+"nnoremap <leader>sl :Telescope sessions<CR>

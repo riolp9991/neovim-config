@@ -16,3 +16,6 @@ nnoremap <leader>so :SLoad<CR>
 nnoremap <leader>ss :SSave<CR>
 nnoremap <leader>sd :SDelete<CR>
 nnoremap <leader>sc :CloseSession<CR>
+
+"nnoremap <Leader>ss <CMD>lua require('yasm').save_session()<CR>
+"nnoremap <Leader>sl <CMD>Telescope sessions<CR>

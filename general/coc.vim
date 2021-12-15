@@ -14,7 +14,9 @@ let g:coc_global_extensions = [
   \ 'coc-vimlsp',
   \ 'coc-explorer',
   \ 'coc-flutter-tools',
-  \ '@yaegassy/coc-intelephense'
+  \ 'coc-jedi',
+  \ '@yaegassy/coc-intelephense',
+  \ 'coc-java'
   \]
 
 nmap <silent> gd <Plug>(coc-definition)

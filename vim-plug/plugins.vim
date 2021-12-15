@@ -2,6 +2,13 @@ filetype plugin on
 
 
 call plug#begin('~/.vim/plugged')
+Plug 'xiyaowong/nvim-transparent'
+Plug 'nanotech/jellybeans.vim'
+Plug 'nvim-treesitter/nvim-treesitter'
+"Plug 'Shatur/neovim-session-manager'
+"Plug 'rmagatti/auto-session'
+"Plug 'TunkShif/yasm.nvim'
+"Plug 'startup-nvim/startup.nvim'
 "LUALINE
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'kyazdani42/nvim-web-devicons'
@@ -25,7 +32,7 @@ Plug 'voldikss/vim-floaterm'
 Plug 'sheerun/vim-polyglot'
 Plug 'mustache/vim-mustache-handlebars'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
-Plug 'Yggdroot/indentLine'
+"Plug 'Yggdroot/indentLine'
 Plug 'dart-lang/dart-vim-plugin'
 Plug 'posva/vim-vue'
 Plug 'xolox/vim-misc'

@@ -1,15 +1,16 @@
-colorscheme onedark  
+let g:material_style = 'darker'
+"colorscheme onedark  
+"colorscheme jellybeans
 "colorscheme monokai_pro
 "colorscheme material
-"colorscheme sonokai
+let g:sonokai_style='default'
+let g:sonokai_enable_italic = 1
+colorscheme sonokai
 "set background=dark
 "colorscheme codedark
 "colorscheme miramare  
 "set background=dark
 "colorscheme palenight
-let g:material_style = 'deep ocean'
-let g:sonokai_style='default'
-let g:sonokai_enable_italic = 1
 "---------------------Transparency----------------------------
 " Get transparency from the terminal
 let t:is_transparent = 0
@@ -24,4 +25,5 @@ function! Toggle_transparent()
 endfunction
 
 
-call Toggle_transparent()
+"call Toggle_transparent()
+let g:transparent_enabled = v:true
