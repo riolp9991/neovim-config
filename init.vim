@@ -11,7 +11,7 @@ source $HOME/.config/nvim/general/files.vim
 source $HOME/.config/nvim/general/floaterm.vim
 source $HOME/.config/nvim/general/indentline.vim
 source $HOME/.config/nvim/general/startify.vim
-"source $HOME/.config/nvim/general/folding.vim
+source $HOME/.config/nvim/general/folding.vim
 
 lua require('line')
 lua require('treester')

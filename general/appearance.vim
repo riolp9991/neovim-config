@@ -1,4 +1,5 @@
-let g:material_style = 'darker'
+"let g:material_style = 'darker'
+highlight Comment cterm=italic
 "colorscheme onedark  
 "colorscheme jellybeans
 "colorscheme monokai_pro
