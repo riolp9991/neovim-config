@@ -1,4 +1,3 @@
-
 source $HOME/.config/nvim/vim-plug/plugins.vim
 source $HOME/.config/nvim/general/settings.vim
 source $HOME/.config/nvim/general/git.vim
@@ -15,3 +14,5 @@ source $HOME/.config/nvim/general/folding.vim
 
 lua require('line')
 lua require('treester')
+
+let g:python3_host_prog = '/usr/bin/python3'

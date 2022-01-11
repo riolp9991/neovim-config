@@ -1,6 +1,5 @@
 let g:mapleader = "\<Space>"
 
-
 syntax enable
 set omnifunc=syntaxcomplete#Complete
 set pumheight=10
