@@ -11,8 +11,10 @@ source $HOME/.config/nvim/general/floaterm.vim
 source $HOME/.config/nvim/general/indentline.vim
 source $HOME/.config/nvim/general/startify.vim
 source $HOME/.config/nvim/general/folding.vim
+source $HOME/.config/nvim/general/auto.vim
 
 lua require('line')
+"lua require('altline')
 lua require('treester')
 
 let g:python3_host_prog = '/usr/bin/python3'

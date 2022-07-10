@@ -1,4 +1,11 @@
 {
+    "languageserver": {
+        "csharp-ls": {
+            "command": "csharp-ls",
+            "filetypes": ["cs"],
+            "rootPatterns": ["*.csproj", ".vim/", ".git/", ".hg/"]
+        }
+    },
     "java.jdt.ls.home": "/home/chrx/Documents/Development/Tools/eclipse.jdt.ls/org.eclipse.jdt.ls.product/target/repository/",
     "cursors.nextKey": "<C-j>",
     "cursors.previousKey": "<C-k>",

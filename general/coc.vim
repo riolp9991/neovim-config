@@ -1,4 +1,4 @@
-let g:coc_node_path = '/home/chrx/.nvm/versions/node/v17.2.0/bin/node'
+let g:coc_node_path = '/home/chrx/.nvm/versions/node/v17.4.0/bin/node'
 
 
 let g:coc_global_extensions = [
@@ -15,8 +15,12 @@ let g:coc_global_extensions = [
   \ 'coc-explorer',
   \ 'coc-flutter-tools',
   \ 'coc-jedi',
+  \ 'coc-phpactor',
   \ '@yaegassy/coc-intelephense',
-  \ 'coc-java'
+  \ 'coc-java',
+  \ 'coc-prisma',
+  \ 'coc-highlight',
+  \ 'coc-svelte',
   \]
 
 nmap <silent> gd <Plug>(coc-definition)

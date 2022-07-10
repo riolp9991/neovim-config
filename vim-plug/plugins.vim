@@ -3,8 +3,11 @@ filetype plugin on
 
 call plug#begin('~/.vim/plugged')
 Plug 'xiyaowong/nvim-transparent'
+Plug 'neovim/nvim-lspconfig'
+Plug 'dracula/vim'
 Plug 'nanotech/jellybeans.vim'
-Plug 'nvim-treesitter/nvim-treesitter'
+Plug 'hrsh7th/nvim-cmp'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 "Plug 'Shatur/neovim-session-manager'
 "Plug 'rmagatti/auto-session'
 "Plug 'TunkShif/yasm.nvim'
