@@ -28,4 +28,4 @@ let g:rainbow_active = 1
 
 
 au! BufWritePost $MYVIMRC source %
-
+"autocmd VimEnter,VimLeave * silent !tmux set status

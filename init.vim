@@ -14,9 +14,11 @@ source $HOME/.config/nvim/general/folding.vim
 source $HOME/.config/nvim/general/auto.vim
 
 lua require('line')
-"lua require('altline')
 lua require('treester')
+lua require('telescopel')
+"lua require('blankline')
 
 let g:python3_host_prog = '/usr/bin/python3'
+
 
 "lua require('startupv')

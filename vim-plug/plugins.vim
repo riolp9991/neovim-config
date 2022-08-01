@@ -2,6 +2,8 @@ filetype plugin on
 
 
 call plug#begin('~/.vim/plugged')
+"Plug 'vimpostor/vim-tpipeline'
+"Plug 'lukas-reineke/indent-blankline.nvim'
 Plug 'mlaursen/vim-react-snippets'
 Plug 'xiyaowong/nvim-transparent'
 Plug 'neovim/nvim-lspconfig'
