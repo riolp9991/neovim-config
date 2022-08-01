@@ -88,8 +88,8 @@ nnoremap <leader>fd :below new output:///flutter-dev <CR>
 nnoremap <leader>fr :CocCommand flutter.run <CR> 
 nnoremap <leader>fs :CocCommand flutter.dev.detach <CR>
 nnoremap <leader>fR :CocCommand flutter.dev.hotRestart <CR>
-xmap <leader>a  <Plug>(coc-codeaction-selected)
-nmap <leader>a  <Plug>(coc-codeaction-selected)
+xmap <leader>a  <Plug>(coc-codeaction-selected)<CR>
+nmap <leader>a  <Plug>(coc-codeaction-selected)<CR>
 "xmap <silent> <leader>a :<C-u>execute 'CocCommand actions.open ' .visualmode()<CR>
 "nmap <silent> <leader>a :<C-u>set operatorfunc=<SID>cocActionsOpenFromSelected<CR>
 

@@ -73,7 +73,7 @@ local filename = {
 
 local diagnostics = {
   'diagnostics',
-  sources = { 'nvim_diagnostic' },
+  --sources = { 'nvim_diagnostic' },
   symbols = { error = ' ', warn = ' ', info = ' ' },
   diagnostics_color = {
     color_error = { fg = colors.red },
@@ -89,11 +89,10 @@ local branch = {
 }
 
 local diff = {
-
   'diff',
   -- Is it me or the symbol for modified us really weird
   symbols = { added = ' ', modified = '柳 ', removed = ' ' },
-      }
+}
 
 local config = {
 options = {

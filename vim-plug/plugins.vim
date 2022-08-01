@@ -2,6 +2,7 @@ filetype plugin on
 
 
 call plug#begin('~/.vim/plugged')
+Plug 'mlaursen/vim-react-snippets'
 Plug 'xiyaowong/nvim-transparent'
 Plug 'neovim/nvim-lspconfig'
 Plug 'dracula/vim'
@@ -12,6 +13,8 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 "Plug 'rmagatti/auto-session'
 "Plug 'TunkShif/yasm.nvim'
 "Plug 'startup-nvim/startup.nvim'
+Plug 'mhinz/vim-startify'
+"Plug 'glepnir/dashboard-nvim'
 "LUALINE
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'kyazdani42/nvim-web-devicons'
@@ -49,7 +52,6 @@ Plug 'ericbn/vim-relativize'
 Plug 'pangloss/vim-javascript' 
 Plug 'joshdick/onedark.vim'
 Plug 'ternjs/tern_for_vim', {'do':'npm install'}
-Plug 'mhinz/vim-startify'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'jiangmiao/auto-pairs'
 Plug 'liuchengxu/vim-which-key'
