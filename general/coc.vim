@@ -19,6 +19,8 @@ let g:coc_global_extensions = [
   \ '@yaegassy/coc-intelephense',
   \ 'coc-java',
   \ 'coc-prisma',
+  \ 'coc-prettier',
+  \ 'coc-go',
   \ 'coc-highlight',
   \ 'coc-svelte',
   \]

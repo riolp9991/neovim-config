@@ -4,6 +4,13 @@ filetype plugin on
 call plug#begin('~/.vim/plugged')
 "Plug 'vimpostor/vim-tpipeline'
 "Plug 'lukas-reineke/indent-blankline.nvim'
+"
+"Plug 'https://github.com/adelarsq/vim-csharp', {'for':['cs','csx','cshtml.html','csproj','solution']}
+"Plug 'https://github.com/OmniSharp/omnisharp-vim', {'for':['cs','csx','cshtml.html','csproj','solution'], 'on': ['OmniSharpInstall']}
+"Plug 'dense-analysis/ale'
+"Plug 'OmniSharp/omnisharp-vim'
+Plug 'norcalli/nvim-colorizer.lua'
+Plug 'fatih/vim-go'
 Plug 'mlaursen/vim-react-snippets'
 Plug 'xiyaowong/nvim-transparent'
 Plug 'neovim/nvim-lspconfig'
